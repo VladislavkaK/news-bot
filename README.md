@@ -1,6 +1,6 @@
 ## telegram news bot
 
-### project structure
+### Project structure
     - src
       - bot.ts # логика бота
       - fetcher.ts # работа с RSS
@@ -9,3 +9,11 @@
     - .env
     - tsconfig.json
     - package.json
+
+### Firstly build project
+
+    - npx tsc
+
+### Secondly run project
+
+    - npx ts-node-dev src/bot.ts
