@@ -1,0 +1,23 @@
+{
+  "name": "news-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "V.Kuznetsov <kuznetsovvladislav2991@gmail.com> (http://test.ru/)",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "16.5.0",
+    "grammy": "1.36.0",
+    "mongodb": "6.15.0",
+    "node-cron": "3.0.3",
+    "rss-parser": "3.13.0"
+  }
+}
