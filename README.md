@@ -2,13 +2,18 @@
 
 ### Project structure
     - src
-      - bot.ts # логика бота
-      - fetcher.ts # работа с RSS
-      - cron.ts # планировщик
-      - db.ts # работа с БД
+      - bot.ts # bot logic
+      - fetcher.ts
+      - cron.ts
+      - db.ts
     - .env
     - tsconfig.json
     - package.json
+
+### You need to add your BOT_TOKEN and POSTGRES_URI and add .env file with following fields:
+
+POSTGRES_URI=postgres://<name_user>:<password_user>@localhost:5432/<name_bd>
+BOT_TOKEN=<YOUR_TG_BOT_TOKEN>
 
 ### Firstly build project
 
