@@ -14,7 +14,7 @@
     "rss",
     "news"
   ],
-  "author": "V.Kuznetsov <kuznetsovvladislav2991@gmail.com> (http://test.ru/)",
+  "author": "V.Kuznetsov <kuznetsovvladislav2991@gmail.com>",
   "license": "MIT",
   "description": "",
   "devDependencies": {

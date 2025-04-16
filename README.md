@@ -21,4 +21,4 @@ BOT_TOKEN=<YOUR_TG_BOT_TOKEN>
 
 ### Secondly run project
 
-    - npx ts-node-dev src/bot.ts
+    - npm run dev
